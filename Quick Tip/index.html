@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Quick Tip</title>
+</head>
+
+<body>
+
+  <main id="container">
+
+    <h1 class="heading">Quick Tip</h1>
+
+    <section>
+
+      <div class="bill">
+        <label for="yourBill">Bill</label>
+        <input type="number" name="Your Bill" placeholder="Enter Your Bill"
+          id="yourBill" class="number">
+      </div>
+
+      <div>
+
+        <div class="space-between">
+          <span>Select tip</span>
+          <span id="tipPercent">0%</span>
+        </div>
+
+        <input type="range" value="0" name="Tip" id="tipInput" class="range">
+
+      </div>
+
+      <div class="space-between">
+        <span>Tip</span>
+        <span id="tipValue">$0</span>
+      </div>
+
+      <hr>
+
+      <div class="space-between">
+        <span>Total</span>
+        <span id="totalWithTip">$0</span>
+      </div>
+
+    </section>
+
+    <section>
+
+      <div>
+
+        <div class="space-between">
+          <span>Split</span>
+          <span id="people">1 Person</span>
+        </div>
+
+        <input type="range" min="1" max="10" value="1"
+          name="How many are there people?" id="splitInput" class="range">
+
+      </div>
+
+      <div class="space-between">
+        <span>Bill each</span>
+        <span id="billEach">$0</span>
+      </div>
+
+      <div class="space-between">
+        <span>Tip each</span>
+        <span id="tipEach">$0</span>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>

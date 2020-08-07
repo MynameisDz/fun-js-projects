@@ -1,0 +1,66 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 10px;
+	box-sizing: border-box;
+}
+
+#container {
+	max-width: 50rem;
+	margin: auto;
+	margin-top: 0.5rem;
+	padding: 3rem 1.6rem 6rem;
+
+	font-size: 1.6rem;
+
+	background: linear-gradient(70deg, #252525, #575757);
+	border-radius: 4rem;
+	box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+	margin-bottom: 3rem;
+
+	font-size: 3rem;
+	text-align: center;
+	color: white;
+}
+
+section {
+	margin-bottom: 1.6rem;
+	padding: 0 1.6rem;
+
+	background-color: white;
+	border-radius: 0.5rem;
+}
+
+section > div {
+	padding: 1.6rem 0;
+}
+
+.bill,
+.space-between {
+	display: flex;
+	align-items: center;
+}
+
+.bill > label {
+	flex: 1;
+}
+
+.bill > input[type="number"] {
+	flex: 3;
+	padding: 0.5rem 1rem;
+
+	border: 0.5px solid dodgerblue;
+	border-radius: 0.5rem;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+input[type="range"] {
+	width: 100%;
+}
